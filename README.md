@@ -55,7 +55,7 @@ This project implements a maze-solving algorithm that uses a camera to capture m
 ### Maze Solving
 1. **Run the Maze Solver Script**
    ```bash
-   python maze_solver.py
+   python maze.py
    ```
 2. **Capture Maze Image**
    - Use the camera feed to capture the maze image by pressing 's'.
@@ -63,37 +63,6 @@ This project implements a maze-solving algorithm that uses a camera to capture m
    - Click to select the start and end points on the maze image.
 4. **View Solution**
    - The simplified solution path will be displayed and saved to a CSV file.
-
-### Camera Calibration
-1. **Run the Calibration Script**
-   ```bash
-   python camera_calibration.py
-   ```
-2. **Input Robot Coordinates**
-   - Provide the robot's top-left and bottom-right coordinates for calibration.
-3. **Generate Robot Coordinates**
-   - Convert pixel waypoints to robot coordinates for execution.
-
-### Inverse Kinematics Execution
-1. **Run the MATLAB Script**
-   - Open and execute the MATLAB script provided in the repository.
-2. **View Robot Movements**
-   - The robot will perform the path-following movements based on the calculated joint angles.
-
----
-
-## File Structure
-```plaintext
-├── maze_solver.py           # Main Python script for maze solving
-├── camera_calibration.py    # Camera calibration and coordinate mapping
-├── requirements.txt         # Python dependencies
-├── robot_ik.m               # MATLAB script for inverse kinematics
-├── waypoints.csv            # Simplified path waypoints
-├── converted_coordinates.txt # Robot coordinates (output from calibration)
-└── angles.csv               # Joint angles for robot path execution
-```
-
----
 
 ## Key Functions
 
