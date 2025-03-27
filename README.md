@@ -33,13 +33,9 @@ This project implements a maze-solving algorithm that uses a camera to capture m
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/maze-solver-cobot.git
-   cd maze-solver-cobot
    ```
 
 2. **Install Python Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 3. **Configure MATLAB Environment**
    - Ensure MATLAB is installed and set up with the Robotics Toolbox.
